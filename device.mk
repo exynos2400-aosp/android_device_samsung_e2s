@@ -25,6 +25,10 @@ $(call inherit-product, vendor/samsung/e2s/e2s-vendor.mk)
 TARGET_SCREEN_WIDTH := 1440
 TARGET_SCREEN_HEIGHT := 3120
 
+# DisplayConfig
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/display/displayconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4633128672291736003.xml
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 

@@ -1,0 +1,14 @@
+<displayConfiguration>
+    <densityMapping>
+        <density>
+            <width>1080</width>
+            <height>2340</height>
+            <density>450</density>
+        </density>
+        <density>
+            <width>1440</width>
+            <height>3120</height>
+            <density>600</density>
+        </density>
+    </densityMapping>
+</displayConfiguration>
